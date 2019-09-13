@@ -23,8 +23,34 @@
 
 Armory Training Update 
 ======================
+SA Weekly Meeting
+-----------------
 9/13/19
 -------
+
+.. note::
+
+  * note
+
+
+----
+
+:id: agenda
+
+Agenda
+======
+
+* whoami
+
+* Administrvia
+
+* Spinnaker and DevOps Overview
+
+* CI/CD and Continuous Improvement
+
+* Docker and K8S
+
+* Restructured Text Overview
 
 .. note::
 
@@ -45,23 +71,13 @@ thomas.mcgonagle@armory.io
 @mcgonagle
 ----------
 
+.. image:: images/thomas_mcgonagle.png
+    :height: 400px
+    :width: 500px
 
 .. note::
   * note
 
-----
-
-:id: spinnaker-metaphor
-
-Spinnaker Metaphor
-========================
-
-.. image:: images/waterworld.jpg 
-    :height: 600px
-    :width: 400px
-
-.. note::
-  * note
 
 ----
 
@@ -76,10 +92,24 @@ Class Introductions
 
 * Experience with DevOps
 
-* Super Power of Choice/Favorite Terrible Movie
+* Favorite Terrible Movie or Super Power of Choice
 
 .. note::
 
+  * note
+
+----
+
+:id: spinnaker-metaphor
+
+Spinnaker Metaphor
+========================
+
+.. image:: images/waterworld.jpg 
+    :height: 600px
+    :width: 400px
+
+.. note::
   * note
 
 ----
@@ -218,6 +248,22 @@ Continuous Improvement
 
 ----
 
+:id: three-ways
+
+Three Ways
+==========
+
+.. image:: images/three_ways.png 
+    :height: 600px
+    :width: 1200px
+    :align: center
+
+.. note::
+
+    * note
+
+----
+
 :id: dog-food
 
 Dog Food
@@ -243,6 +289,23 @@ CI/CD
     :height: 600px
     :width: 1200px
     :align: center
+
+.. note::
+
+    * note
+
+----
+
+:id: docker
+
+docker
+======
+
+Make a Change and then....
+
+.. code:: python
+
+    docker build --tag=mcgonagle/102 . && docker run -it --rm -p "9000:9000" mcgonagle/102
 
 .. note::
 
