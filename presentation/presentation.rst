@@ -165,9 +165,9 @@ DevOps Practices
 =======================
 
 .. image:: images/devops_playbook.png 
-    :height: 800px
-    :width: 1500px
-    :align: right
+    :height: 600px
+    :width: 1200px
+    :align: left
 
 .. note::
 
@@ -189,13 +189,76 @@ Migrating to the Cloud
 
     * note
 
+----
+
+:id: hovercaft
+
+hovercraft
+==========
+
+https://hovercraft.readthedocs.io/en/latest/index.html
 
 ----
 
-:id: conclusions
+:id: headers
 
-Conclusions
-===========
+Headers
+=======
+
+.. code:: python
+    
+    This becomes a h1
+    =================
+
+    And this a h2
+    -------------
+
+----
+
+:id: bullets
+
+bullets
+=======
+
+.. code:: python
+
+    * Bullet 1
+
+        * Bullet 1.1
+
+    * Bullet 2
+
+    * Bullet 3
+
+----
+
+:id: lists
+
+lists
+=======
+
+.. code:: python
+
+    1. Item 1
+
+        1.1. Item 1.1
+
+    2. Item 2
+
+    3. Item 3
+
+----
+
+:id: images
+
+images
+======
+
+.. code:: python
+
+    .. image:: path/to/image.png
+        :height: 600px
+        :width: 800px
 
 ----
 
@@ -204,4 +267,4 @@ Conclusions
 Questions?
 ==========
 
-Presentation available at: https://github.com/armory-training/101
+Presentation available at: https://github.com/mcgonagle/102
