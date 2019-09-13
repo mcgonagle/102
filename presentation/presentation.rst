@@ -92,7 +92,7 @@ Class Introductions
 
 * Experience with DevOps
 
-* Favorite Terrible Movie or Super Power of Choice
+* Favorite Terrible Movie or Super Power of Choice or Video Game World 
 
 .. note::
 
@@ -151,6 +151,19 @@ Training Philosophy
     :width: 250px
     :align: right
 
+----
+
+:id: learning-fun 
+
+Fun Learning Strategies
+=======================
+
+.. image:: images/fun_learning.png 
+    :height: 800px
+    :width: 800px
+
+.. note::
+  * note
 
 ----
 
