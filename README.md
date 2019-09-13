@@ -6,7 +6,12 @@ This is a basic Docker image for building and previewing [Hovercraft](https://gi
 
 ## Usage
 
+To build:
+``` bash
+docker build --tag=mcgonagle/102 .
+```
 
+To Run:
 ``` bash
 docker run -it --rm -p "9000:9000" -v mcgonagle/102
 ```
