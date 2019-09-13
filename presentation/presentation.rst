@@ -1,4 +1,4 @@
-:title: Spinnaker Fundamentals
+:title: Armory Training Update
 :author: Thomas A. McGonagle
 :keywords: Spinnaker
 :skip-help: true
@@ -21,11 +21,9 @@
 
 :id: title-slide
 
-Spinnaker Fundamentals 
+Armory Training Update 
 ======================
-*Customer Name*
----------------
-9/11/19
+9/13/19
 -------
 
 .. note::
@@ -78,7 +76,7 @@ Class Introductions
 
 * Experience with DevOps
 
-* Super Power of Choice
+* Super Power of Choice/Favorite Terrible Movie
 
 .. note::
 
@@ -131,8 +129,8 @@ Training Philosophy
 DevOps Definition
 =================
 
-Technical and Cultural focus on Teamwork and the software delivery Mission 
---------------------------------------------------------------------------
+Technical and **Cultural** focus on **Teamwork** and the software delivery **Mission** 
+--------------------------------------------------------------------------------------
 
 .. note::
 
@@ -198,6 +196,81 @@ hovercraft
 
 https://hovercraft.readthedocs.io/en/latest/index.html
 
+.. note::
+
+    * note
+
+----
+
+:id: continuous-improvement 
+
+Continuous Improvement
+======================
+
+.. image:: https://www.planview.com/wp-content/uploads/2018/09/what-is-continuous-improvement-leankit.jpg
+    :height: 600px
+    :width: 1200px
+    :align: center
+
+.. note::
+
+    * note
+
+----
+
+:id: dog-food
+
+Dog Food
+========
+
+.. image:: https://images-na.ssl-images-amazon.com/images/I/81XPwF8NnAL._SL1500_.jpg
+    :height: 600px
+    :width: 800px
+    :align: center
+
+.. note::
+
+    * note
+
+----
+
+:id: ci-cd
+
+CI/CD
+========
+
+.. image:: https://www.talend.com/wp-content/uploads/DevOps-Talend-1.png
+    :height: 600px
+    :width: 1200px
+    :align: center
+
+.. note::
+
+    * note
+
+----
+
+:id: k8s
+
+k8s
+===
+
+.. code:: python
+
+    docker build --tag=mcgonagle/102 .
+
+    docker push mcgonagle/102:latest
+
+    kubectl run hovercraft --image=mcgonagle/102 -n default
+
+    kubectl -n default expose deployment/hovercraft --port=9000 --target-port=9000
+
+    kubectl -n default port-forward services/hovercraft 9000:9000
+
+.. note::
+
+    * note
+
 ----
 
 :id: headers
@@ -212,6 +285,10 @@ Headers
 
     And this a h2
     -------------
+
+.. note::
+
+    * note
 
 ----
 
@@ -230,6 +307,10 @@ bullets
 
     * Bullet 3
 
+.. note::
+
+    * note
+
 ----
 
 :id: lists
@@ -247,6 +328,10 @@ lists
 
     3. Item 3
 
+.. note::
+
+    * note
+
 ----
 
 :id: images
@@ -260,6 +345,10 @@ images
         :height: 600px
         :width: 800px
 
+.. note::
+
+    * note
+
 ----
 
 :id: questions
@@ -268,3 +357,7 @@ Questions?
 ==========
 
 Presentation available at: https://github.com/mcgonagle/102
+
+.. note::
+
+    * note
