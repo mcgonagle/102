@@ -1,4 +1,4 @@
-# mcgonagle/hovercraft-101 
+# mcgonagle/102
 
 [![Docker Automated Build](https://img.shields.io/docker/automated/mcgonagle/102.svg?style=flat-square)](https://hub.docker.com/r/mcgonagle/102/) [![Apache-2.0 License](https://img.shields.io/github/license/mcgonagle/102.svg?style=flat-square)](https://github.com/mcgonagle/102/blob/master/LICENSE) [![Docker Build Status](https://img.shields.io/docker/build/mcgonagle/102.svg?style=flat-square)](https://hub.docker.com/r/mcgonagle/102/builds/)
 
@@ -6,7 +6,7 @@ This is a basic Docker image for building and previewing [Hovercraft](https://gi
 
 ## Usage
 
-To build:
+To Build:
 ``` bash
 docker build --tag=mcgonagle/102 .
 ```
