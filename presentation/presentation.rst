@@ -239,7 +239,7 @@ Continuous Improvement
 
 .. image:: https://www.planview.com/wp-content/uploads/2018/09/what-is-continuous-improvement-leankit.jpg
     :height: 600px
-    :width: 1200px
+    :width: 1000px
     :align: center
 
 .. note::
@@ -324,7 +324,7 @@ k8s
 
     docker push mcgonagle/102:latest
 
-    kubectl run hovercraft --image=mcgonagle/102 -n default
+    kubectl -n default run hovercraft --image=mcgonagle/102 
 
     kubectl -n default expose deployment/hovercraft --port=9000 --target-port=9000
 
