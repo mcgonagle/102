@@ -12,7 +12,7 @@
 
 .. footer::
     .. image:: images/spinnaker.png 
-        :height: 75px
+        :height: 70px
         :width: 90px
         :align: center
     
